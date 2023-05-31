@@ -1,0 +1,30 @@
+.container,
+.MyCityContainer {
+    max-width: 1100px;
+    padding: 0 30px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: $secondary-color;
+    &:hover {
+        text-decoration: none;
+        color: $secondary-color;
+    }
+}
+
+hr {
+    margin: 10px 0;
+}
